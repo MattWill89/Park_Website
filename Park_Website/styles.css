@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    }
+
+.navbar {
+    background-color: #343a40; 
+    }
+
+    .navbar-brand {
+    font-size: 1.5rem;
+    }
+
+.navbar-nav .nav-link {
+    color: #fff; 
+    }
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107; 
+    }
+
+.jumbotron {
+    background-color: #007bff;
+    color: #fff; 
+    }
+
+#gallery h2 {
+    color: #007bff; 
+    } 
+
+#gallery img {
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+    }
+
+#gallery img:hover {
+    transform: scale(1.1);
+    }
+
+#location h2 {
+    color: #007bff; 
+    }
+
+#location img {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
